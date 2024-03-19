@@ -1,0 +1,59 @@
+h3 {
+    margin-left: 15px;
+  }
+  
+  .fileInput {
+    width: 50%;
+    border-bottom: 4px solid lightgray;
+    border-right: 4px solid lightgray;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    padding: 10px;
+    margin: 15px;
+    cursor: pointer;
+  }
+  
+  .imgPreview {
+    text-align: center;
+    margin: 5px 15px;
+    height: 200px;
+    width: 500px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 5px solid gray;
+    border-bottom: 5px solid gray;
+  }
+  
+  .imgPreview img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .previewText {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .submitButton {
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    background-color: #9147ff;
+    color: white;
+    padding: 0 20px;
+  }
+  .submitButton:hover {
+    background-color: #772ce8;
+  }
+  
+  .centerText {
+    text-align: center;
+    width: 500px;
+  }
+  
+ 

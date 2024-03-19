@@ -1,0 +1,53 @@
+/* Step2.css */
+.step2 {
+    width: 30%;
+    margin: 10px 30px;
+  }
+  
+  .inputContainer {
+    margin-bottom: 15px;
+  }
+  
+  .inputContainer input {
+    width: 100%; 
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+  }
+  
+  .fName_lName {
+    display: flex;
+    justify-content:space-between;
+  }
+  
+  .buttonContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .buttonContainer button {
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    background-color: #9147ff;
+    color: white;
+    padding: 0 20px;
+  }
+  
+  .buttonContainer button:hover{
+    background-color: #772ce8;
+  }
+
+  .buttonContainer button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  .emailError {
+    color: red;
+  }

@@ -1,0 +1,28 @@
+.tabs {
+  display: flex;
+  margin: 20px;
+}
+
+.tab {
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  /* border-bottom: 2px solid; */
+}
+
+.tab.active {
+  border-bottom: 5px solid #772ce8;
+  color: #772ce8;
+}
+
+.progress-bar-container {
+  width: 15%;
+  height: 5px;
+  background-color: #ccc; 
+  margin: 10px 20px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #28a745; 
+}
